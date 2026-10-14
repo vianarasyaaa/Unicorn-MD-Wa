@@ -1,0 +1,20 @@
+{
+  "name": "unicorn-md-wa",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bot WhatsApp sederhana dengan Baileys dan pairing code.",
+  "scripts": {
+    "start": "bash ./install.sh && node index.js",
+    "setup": "bash ./install.sh",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.7.24",
+    "pino": "^9.6.0",
+    "tiktok-live-connector": "^2.5.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
